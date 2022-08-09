@@ -597,6 +597,34 @@
     padding-right: 5px;
 }
 
+.styles_row-title__1YiiY {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tog-para {
+    font-size: 16px;
+    display: none;
+    font-weight: 400;
+}
+
+.btn-turn {
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform .5s ease-in-out;
+}
+
+.btn-turn:focus {
+    transform: rotate(360deg);
+}
+
+.show {
+    display: block;
+}
+
 .ques {
     color: #333;
     font-family: Graphik;
