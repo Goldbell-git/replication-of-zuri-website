@@ -47,7 +47,7 @@
 .nav-button,
 .nav-button1 {
     background: #e7332b;
-    border-radius: 4px;
+    border-radius: 0px 0px 7px;
     color: #FFFFFF;
     padding: 10px 20px;
     border: none;
@@ -91,7 +91,7 @@
 
 .nav-button1 {
     background: #787878;
-    border-radius: 4px;
+    border-radius: 0px 0px 7px;
     padding: 10px 20px;
 }
 
@@ -392,6 +392,13 @@
 }
 
 @media (max-width: 700px) {
+     .people {
+        margin: 2%;
+    }
+    .peoples {
+        margin-top: -13%;
+        padding: 13% 9%;
+    }
     .flex1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
