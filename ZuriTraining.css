@@ -1037,10 +1037,6 @@
     .css-79xub {
         padding: 4px 10px;
     }
-    .css-1h77wgb2 {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
     .wire10 {
         margin-top: 27px;
         width: 25%;
@@ -1063,7 +1059,9 @@
         padding: 0 5%;
     }
     .section9-title {
-        font-size: 25px!important;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 45px;
     }
     .footer-text {
         padding-bottom: 10px;
@@ -1080,9 +1078,6 @@
         letter-spacing: .01em;
         line-height: 140%;
     }
-}
-
-@media (max-width: 600px) {
     .css-isbt43 {
         display: grid;
         margin: 0 auto;
@@ -1104,18 +1099,15 @@
         display: grid;
         text-align: center;
     }
-    .section9-title {
-        font-size: 45px!important;
-    }
     .box7-image {
         margin-right: 5%;
     }
-    .faq-box1 {
-        margin: 0 15%;
-        justify-content: center;
+    #faqs {
+        text-align: left;
+        margin-right: 10%;
     }
     .button52 {
-        width: 180px;
+        width: 130px;
         padding-right: 5%;
     }
 }
